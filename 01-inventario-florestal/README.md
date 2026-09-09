@@ -21,8 +21,6 @@ Desenvolver um fluxo de análise para dados de inventário florestal, contemplan
 * organização de dados geoespaciais;
 * geração e armazenamento de resultados de forma reprodutível.
 
-O objetivo é demonstrar a aplicação prática de ferramentas computacionais na análise de dados florestais.
-
 ---
 
 ##  Fluxo da análise
@@ -31,35 +29,23 @@ O objetivo é demonstrar a aplicação prática de ferramentas computacionais na
 Dados de campo
       │
       ▼
-┌─────────────────────┐
-│ Tratamento dos dados│
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Análise dendrométrica│
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Cubagem rigorosa    │
-│ Método de Smalian   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Modelagem volumétrica│
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Avaliação estatística│
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Resultados e mapas  │
-└─────────────────────┘
+Tratamento dos dados
+      │
+      ▼
+Análise dendrométrica
+      │
+      ▼
+Cubagem rigorosa
+Método de Smalian
+      │
+      ▼
+Modelagem volumétrica
+      │
+      ▼
+Avaliação estatística
+      │
+      ▼
+Resultados e produtos espaciais
 ```
 
 ---
@@ -76,8 +62,6 @@ São analisadas variáveis utilizadas no inventário florestal, incluindo:
 * volume sem casca;
 * parâmetros derivados do inventário.
 
-Essas informações são utilizadas como base para as etapas posteriores de cubagem e modelagem.
-
 ---
 
 ### 2. Cubagem rigorosa
@@ -92,14 +76,14 @@ O procedimento permite obter estimativas de volume por seção e do fuste comple
 
 São ajustados e comparados diferentes modelos de volume em função das variáveis dendrométricas.
 
-Entre os modelos avaliados estão:
+Modelos avaliados:
 
 * **Berkhout**
 * **Spurr**
 * **Spurr logarítmico**
 * **Schumacher & Hall**
 
-A comparação considera medidas de qualidade do ajuste e dos resíduos, permitindo selecionar modelos com melhor desempenho para a estimativa volumétrica.
+A comparação considera medidas de qualidade do ajuste e análise dos resíduos.
 
 ---
 
@@ -118,41 +102,21 @@ onde:
 * \(H\) = altura total;
 * \(\beta_0, \beta_1, \beta_2\) = parâmetros estimados.
 
-O modelo apresentou elevado poder explicativo para os dados analisados.
-
 ---
 
-##  Avaliação dos modelos
+##  Integração geoespacial
 
-Os modelos são comparados considerando critérios como:
+Os dados do inventário podem ser relacionados à localização das parcelas e árvores, permitindo a integração entre **inventário florestal e informações espaciais**.
 
-* coeficiente de determinação ajustado;
-* erro residual;
-* análise dos resíduos;
-* significância dos parâmetros;
-* comportamento das estimativas;
-* desempenho geral na estimativa do volume.
+O projeto utiliza ferramentas do ecossistema GIS para organização e processamento dos dados geoespaciais, incluindo:
 
-Essa etapa permite avaliar não apenas o ajuste estatístico, mas também a adequação do modelo ao contexto do inventário florestal.
+* **QGIS**
+* **Google Earth Engine**
+* R (`sf`, `terra`)
+* dados vetoriais e raster
+* análise espacial
 
----
-
-## 🗺️ Dados geoespaciais
-
-O projeto também possui uma estrutura destinada à organização de dados espaciais:
-
-```text
-geodata/
-```
-
-Esses dados podem ser utilizados para relacionar as informações do inventário com a localização das parcelas e árvores, permitindo posteriormente integrar:
-
-* inventário florestal;
-* coordenadas;
-* parcelas;
-* mapas temáticos;
-* análise espacial;
-* ferramentas GIS.
+Essa integração permite ampliar as análises para mapas temáticos, caracterização espacial da área e integração futura com dados de sensoriamento remoto.
 
 ---
 
@@ -171,29 +135,35 @@ Esses dados podem ser utilizados para relacionar as informações do inventário
 │   ├── figures/          # Gráficos e figuras
 │   └── tables/           # Tabelas e resultados
 │
-├── scripts/              # Scripts em R
+├── scripts/              # Scripts de análise
 │
 └── README.md             # Documentação do projeto
 ```
 
 ---
 
-##  Tecnologias utilizadas
+## Tecnologias utilizadas
 
-### Linguagem
+### Programação e análise
 
 * **R**
+* **Python**
 
-### Principais pacotes
+### Geoprocessamento e GIS
+
+* **QGIS**
+* **Google Earth Engine**
+* `sf`
+* `terra`
+
+### Análise de dados
 
 * `dplyr`
 * `ggplot2`
 * `readr`
 * `readxl`
-* `sf`
-* `terra`
 
-### Conceitos aplicados
+### Principais métodos
 
 * Inventário Florestal
 * Dendrometria
@@ -205,17 +175,16 @@ Esses dados podem ser utilizados para relacionar as informações do inventário
 * Estatística aplicada
 * Geoprocessamento
 * Análise espacial
+* Sensoriamento remoto
 * Reprodutibilidade científica
 
 ---
 
-##  Reprodutibilidade
+## Reprodutibilidade
 
 A organização do projeto segue uma estrutura de separação entre:
 
 **dados → scripts → resultados**
-
-Isso permite que os procedimentos sejam executados novamente a partir dos dados de entrada, reduzindo a necessidade de processamento manual e facilitando a reprodução das análises.
 
 Os scripts utilizados no projeto estão disponíveis em:
 
@@ -231,25 +200,8 @@ results/
 
 ---
 
-## 📌 Principais competências demonstradas
 
-Este projeto demonstra experiência prática em:
-
-* 🌲 **Inventário Florestal**
-* 📏 **Dendrometria**
-* 📊 **Estatística aplicada**
-* 📐 **Modelagem florestal**
-* 🗺️ **Geoprocessamento**
-* 💻 **Programação em R**
-* 🔄 **Automação de análises**
-* 📁 **Organização de dados**
-* 📈 **Análise e visualização de resultados**
-* ♻️ **Reprodutibilidade de workflows**
-
----
-
-
-##  Autora
+## 👩‍💻 Autora
 
 **Bruna Bertini**
 
@@ -259,8 +211,6 @@ GitHub: [bbertini-alt](https://github.com/bbertini-alt)
 
 ---
 
-##  Contexto
+## 🚧 Status
 
-Este projeto integra o portfólio **analises-GIS**, desenvolvido para demonstrar a aplicação de ferramentas computacionais, estatísticas e geoespaciais em problemas relacionados às Ciências Florestais.
-
-**Status:** 🚧 Em desenvolvimento
+**Em desenvolvimento**
