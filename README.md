@@ -4,13 +4,13 @@ Repositório de projetos de **Geoprocessamento, GIS, Sensoriamento Remoto e Aná
 
 ## Projetos
 
-### 01 — Inventário Florestal
+### — Inventário Florestal
 
 Análise de dados dendrométricos, cubagem, estimativa de volume e modelagem florestal.
 
 → [`01-inventario-florestal`](./01-inventario-florestal)
 
-### 02 — Monitoramento da Vegetação
+### — Monitoramento da Vegetação
 
 Projeto em desenvolvimento para análise e monitoramento da vegetação utilizando dados geoespaciais e sensoriamento remoto.
 
