@@ -209,7 +209,7 @@ Esses dados podem ser utilizados para relacionar as informações do inventário
 
 ---
 
-## 🔄 Reprodutibilidade
+##  Reprodutibilidade
 
 A organização do projeto segue uma estrutura de separação entre:
 
