@@ -87,7 +87,7 @@ A comparação considera medidas de qualidade do ajuste e análise dos resíduos
 
 ---
 
-## 📐 Modelo de Schumacher & Hall
+##  Modelo de Schumacher & Hall
 
 Um dos modelos utilizados é a forma logarítmica do modelo de **Schumacher & Hall**:
 
@@ -201,7 +201,7 @@ results/
 ---
 
 
-## 👩‍💻 Autora
+##  Autora
 
 **Bruna Bertini**
 
