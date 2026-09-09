@@ -28,7 +28,7 @@ Projeto em desenvolvimento para análise e monitoramento da vegetação utilizan
 
 ## 🚧 Status
 
-Repositório em desenvolvimento, com novos projetos e análises sendo adicionados.
+Repositório em desenvolvimento, com novas ferramentas, projetos e análises sendo adicionadas.
 
 ---
 
