@@ -248,22 +248,6 @@ Este projeto demonstra experiência prática em:
 
 ---
 
-## 🚀 Possíveis extensões
-
-O projeto pode ser ampliado para incorporar novas etapas de análise espacial, incluindo:
-
-* mapas das parcelas do inventário;
-* distribuição espacial das árvores;
-* análise de estrutura horizontal e vertical;
-* interpolação espacial;
-* geoestatística;
-* mapas de volume;
-* integração com imagens de satélite;
-* análise de índices de vegetação;
-* integração com QGIS;
-* automação de relatórios.
-
----
 
 ##  Autora
 
