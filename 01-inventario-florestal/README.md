@@ -209,8 +209,3 @@ Graduanda em Engenharia Florestal | Geoprocessamento | GIS | Sensoriamento Remot
 
 GitHub: [bbertini-alt](https://github.com/bbertini-alt)
 
----
-
-## 🚧 Status
-
-**Em desenvolvimento**
