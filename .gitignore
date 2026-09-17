@@ -1,0 +1,18 @@
+# ============================================================
+# Dados locais - não versionar
+# ============================================================
+
+# Dados brutos
+01-monitoramento-vegetacao/data/raw/
+
+# Dados processados
+01-monitoramento-vegetacao/data/processed/
+
+# Arquivos temporários
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Arquivos locais do sistema
+.DS_Store
+Thumbs.db
