@@ -1,18 +1,17 @@
-#  analises-GIS
+#  Análises GIS
 
-Repositório de projetos de **Geoprocessamento, GIS, Sensoriamento Remoto e Análise de Dados** aplicados às Ciências Florestais e ambientais.
-
+Repositório de projetos de **Geoprocessamento, e Análise de Dados** aplicados à Engenharia Florestal.
 ## Projetos
 
-###  Inventário Florestal
+### • Inventário Florestal
 
-Análise de dados dendrométricos, cubagem, estimativa de volume e modelagem florestal.
+Processamento e análise de dados dendrométricos, como cubagem, estimativa de volume e geoestatística.
 
 → [`01-inventario-florestal`](./01-inventario-florestal)
 
-###  Monitoramento da Vegetação
+### • Monitoramento da Vegetação
 
-Projeto em desenvolvimento para análise e monitoramento da vegetação utilizando dados geoespaciais e sensoriamento remoto.
+Processamento e análise envolvendo o monitoramento da vegetação utilizando dados geoespaciais de sensoriamento remoto e processados como NDMI, NDVI e EVI. 
 
 → [`01-monitoramento-vegetacao`](./01-monitoramento-vegetacao)
 
@@ -21,10 +20,8 @@ Projeto em desenvolvimento para análise e monitoramento da vegetação utilizan
 * R
 * Python
 * QGIS
-* GIS
-* Sensoriamento Remoto
-* Análise Espacial
-* Dados Raster e Vetoriais
+* Dashboards 
+* WebGIS
 
 ## 🚧 Status
 
@@ -32,5 +29,5 @@ Repositório em desenvolvimento, com novas ferramentas, projetos e análises sen
 
 ---
 
-**Bruna Bertini**
-Engenharia Florestal | Geoprocessamento | GIS | Sensoriamento Remoto
+**Bruna Bertini** 
+Engenharia Florestal | GIS | Data Analysis
