@@ -2,7 +2,7 @@
 
 Repositório de projetos de **Geoprocessamento, e Análise de Dados** aplicados à Engenharia Florestal.
 
-## Projetos acadêmicos 💠
+## 💠 Projetos Acadêmicos 
 
 ### • Inventário Florestal
 
