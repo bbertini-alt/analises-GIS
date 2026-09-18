@@ -1,25 +1,17 @@
-#  Inventário Florestal — Análise Dendrométrica e Volumétrica
+#  Inventário Florestal 
 
 Projeto de **Inventário Florestal** desenvolvido para organizar, processar e analisar dados dendrométricos, com aplicação de métodos estatísticos e modelos de estimativa de volume.
 
 O projeto integra conceitos de **Engenharia Florestal, Estatística, Modelagem e Geoprocessamento**, utilizando **R** para automatização das análises e organização de um fluxo reprodutível.
 
-> 📌 Este projeto faz parte do portfólio de análises GIS e florestais desenvolvido por **Bruna Bertini**.
+> 📌 Este projeto faz parte do portfólio de análises GIS desenvolvido por **Bruna Bertini**.
 
 ---
 
 ##  Objetivo
 
-Desenvolver um fluxo de análise para dados de inventário florestal, contemplando:
+Desenvolver um fluxo de análise para dados de inventário florestal.
 
-* organização e tratamento dos dados;
-* análise dendrométrica;
-* cubagem rigorosa;
-* estimativa de volume;
-* ajuste e comparação de modelos volumétricos;
-* avaliação estatística dos modelos;
-* organização de dados geoespaciais;
-* geração e armazenamento de resultados de forma reprodutível.
 
 ---
 
@@ -110,7 +102,6 @@ Os dados do inventário podem ser relacionados à localização das parcelas e �
 
 O projeto utiliza ferramentas do ecossistema GIS para organização e processamento dos dados geoespaciais, incluindo:
 
-* **QGIS**
 * **Google Earth Engine**
 * R (`sf`, `terra`)
 * dados vetoriais e raster
@@ -163,20 +154,6 @@ Essa integração permite ampliar as análises para mapas temáticos, caracteriz
 * `readr`
 * `readxl`
 
-### Principais métodos
-
-* Inventário Florestal
-* Dendrometria
-* Cubagem rigorosa
-* Método de Smalian
-* Modelagem volumétrica
-* Regressão
-* Análise de resíduos
-* Estatística aplicada
-* Geoprocessamento
-* Análise espacial
-* Sensoriamento remoto
-* Reprodutibilidade científica
 
 ---
 
@@ -200,12 +177,6 @@ results/
 
 ---
 
-
-##  Autora
-
-**Bruna Bertini**
-
-Graduanda em Engenharia Florestal | Geoprocessamento | GIS | Sensoriamento Remoto | Análise de Dados
 
 GitHub: [bbertini-alt](https://github.com/bbertini-alt)
 
