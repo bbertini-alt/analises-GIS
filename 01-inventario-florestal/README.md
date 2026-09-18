@@ -2,7 +2,7 @@
 
 Projeto de **Inventário Florestal** desenvolvido para organizar, processar e analisar dados dendrométricos, com aplicação de métodos estatísticos e modelos de estimativa de volume.
 
-O projeto integra conceitos da **Engenharia Florestal,utilizando **R** para automatização das análises e organização de um fluxo reprodutível.
+O projeto integra conceitos da **Engenharia Florestal** utilizando **R** para automatização das análises e organização de um fluxo reprodutível.
 
 > 📌 Este projeto faz parte do portfólio de análises GIS desenvolvido por **Bruna Bertini**.
 
