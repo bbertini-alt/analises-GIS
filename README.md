@@ -1,7 +1,8 @@
 #  Análises GIS
 
 Repositório de projetos de **Geoprocessamento, e Análise de Dados** aplicados à Engenharia Florestal.
-## Projetos
+
+## Projetos acadêmicos 💠
 
 ### • Inventário Florestal
 
