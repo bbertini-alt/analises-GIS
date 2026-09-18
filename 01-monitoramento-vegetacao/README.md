@@ -1,4 +1,4 @@
-# 01 — Monitoramento de Vegetação
+# Monitoramento de Vegetação 
 
 Projeto de desenvolvimento de um fluxo técnico e reproduzível
 para monitoramento da condição da vegetação utilizando dados
@@ -13,10 +13,6 @@ para analisar a condição e a dinâmica da vegetação ao longo do tempo.
 
 É possível desenvolver um fluxo reproduzível para aquisição,
 processamento, armazenamento e análise de dados de vegetação?
-
-## Status
-
-Em desenvolvimento.
 
 ## Tecnologias
 
