@@ -1,53 +1,78 @@
-# 01 — Monitoramento de Vegetação
+# 🌱 Monitoramento de Vegetação
 
-Projeto de desenvolvimento de um fluxo técnico e reproduzível
-para monitoramento da condição da vegetação utilizando dados
-de Sensoriamento Remoto e ferramentas de Geoprocessamento.
+> **Sensoriamento Remoto · GIS · Data Analytics**
 
-## Objetivo
+Fluxo analítico para monitoramento da condição e dinâmica da vegetação utilizando dados Sentinel-2, índices espectrais, análise temporal e espacial.
 
-Investigar como dados de Sensoriamento Remoto podem ser utilizados
-para analisar a condição e a dinâmica da vegetação ao longo do tempo.
+---
 
-## Pergunta
+## 🎯 Objetivo
 
-É possível desenvolver um fluxo reproduzível para aquisição,
-processamento, armazenamento e análise de dados de vegetação?
+> Transformar dados de Sensoriamento Remoto em **indicadores, análises e visualizações** para acompanhamento da vegetação ao longo do tempo.
 
-## Status
+---
 
-Em desenvolvimento.
+## 📊 Análises
 
-## Tecnologias
+| Indicadores   | Análises         |
+| ------------- | ---------------- |
+| **NDVI**      | Séries temporais |
+| **NDMI**      | Sazonalidade     |
+| **EVI**       | Correlação       |
+| **Anomalias** | Análise espacial |
+| **Hotspots**  | Estatísticas     |
 
-- Sentinel-2
-- QGIS
-- Python
-- PostgreSQL / PostGIS
-- GeoServer
+---
 
-## Etapas
+## 🛠️ Tecnologias
 
-- [ ] Definição da área de estudo
-- [ ] Aquisição dos dados
-- [ ] Pré-processamento
-- [ ] Análise no QGIS
-- [ ] Automatização com Python
-- [ ] Estruturação dos dados no PostGIS
-- [ ] Publicação com GeoServer
-- [ ] Análise dos resultados
-- [ ] Documentação para reprodução
+`Python` · `Sentinel-2` · `GeoPandas` · `Rasterio` · `Pandas`
+`DuckDB` · `Parquet` · `QGIS` · `PostGIS` · `GeoServer`
+`Plotly` · `Dash` · `WebGIS`
 
-## Reprodutibilidade
+---
 
-Todo o processo será documentado neste repositório,
-incluindo dados de entrada, procedimentos, scripts,
-configurações e resultados.
+## 🔄 Fluxo
 
-## Resultados
+```text
+Sentinel-2
+    ↓
+Processamento
+    ↓
+Índices de vegetação
+    ↓
+Análise temporal + espacial
+    ↓
+Anomalias
+    ↓
+DuckDB + Parquet
+    ↓
+Dashboard + WebGIS
+```
 
-Em desenvolvimento.
+---
 
-## Limitações
+## 📁 Estrutura
 
-Em desenvolvimento.
+```text
+data/          Dados e resultados processados
+notebooks/     Análises e processamento
+analytics/     Consultas e métricas
+dashboard/     Visualização interativa
+gis/           QGIS · PostGIS · GeoServer
+results/       Figures · Maps · Tables
+```
+
+---
+
+## 📌 Status
+
+**Em desenvolvimento**
+
+**✓** Processamento
+**✓** Índices de vegetação
+**✓** Análises temporal e espacial
+**✓** Anomalias
+**✓** Estruturação em Parquet + DuckDB
+**→** Dashboard
+**→** WebGIS
